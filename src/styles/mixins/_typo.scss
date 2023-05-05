@@ -1,0 +1,91 @@
+@mixin font_text12 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+@mixin font_text14 {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 135%;
+}
+
+@mixin font_text13 {
+    font-style: normal;
+    font-size: 13px;
+    line-height: 135%;
+}
+
+@mixin font_text16 {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 135%;
+}
+
+@mixin font_text28 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+@mixin font_text18 {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 125%;
+}
+
+@mixin font_text20 {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 115%;
+}
+
+@mixin font_text24 {
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+@mixin font_text28 {
+    font-style: normal;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+@mixin font_text24 {
+    font-style: normal;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+@mixin font_text32 {
+    font-style: normal;
+    font-size: 32px;
+    line-height: 37.5px;
+}
+
+
+@mixin font_text36 {
+    font-style: normal;
+    font-size: 36px;
+    line-height: 105%;
+}
+
+@mixin font_text40 {
+    font-style: normal;
+    font-size: 40px;
+    line-height: 105%;
+}
+
+@mixin font_text72 {
+    font-style: normal;
+    font-size: 72px;
+    line-height: 98px;
+}
+
+@mixin font_text144 {
+    font-style: normal;
+    font-size: 144px;
+    line-height: 196px;
+}

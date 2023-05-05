@@ -1,0 +1,24 @@
+@import "../../styles/variables";
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+.button {
+  padding: 15px 20px;
+  font-family: inherit;
+  background-color: $light_blue;
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+  @include hover_transition(background-color);
+
+  &:hover {
+	background-color: $light_blue_hover;
+  }
+}

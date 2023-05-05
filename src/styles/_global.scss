@@ -1,0 +1,17 @@
+@import "variables.scss";
+
+* {
+  box-sizing: border-box;
+  font-family: $fontProximaNova;
+  @include font_text16;
+  font-weight: 400;
+}
+
+:global {
+  .App {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	min-height: 100vh;
+  }
+}

@@ -1,0 +1,5 @@
+@mixin hover_transition($property: opacity) {
+    --webkit-transition: $property 0.2s ease-in;
+    -ms-transition: $property 0.2s ease-in;
+    transition: $property 0.2s ease-in;
+}

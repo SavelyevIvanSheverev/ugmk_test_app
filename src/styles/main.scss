@@ -1,0 +1,10 @@
+@import "mixins/index.scss";
+@import "_fonts.scss";
+@import "_global.scss";
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
